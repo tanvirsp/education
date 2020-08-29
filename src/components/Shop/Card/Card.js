@@ -18,7 +18,7 @@ const Card = (props) => {
                         return (
                             <li>
                                 <a className="justify-content-between d-flex" href={data.name}>
-                                    <p> course Name </p>
+                                    <p> Course Name </p>
                                     <span className="color">{data.name}</span>
                                 </a>
                             </li>
